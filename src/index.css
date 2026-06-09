@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&family=ZCOOL+KuaiLe&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "ZCOOL KuaiLe", system-ui, -apple-system, sans-serif;
+  --font-display: "Fredoka", "ZCOOL KuaiLe", sans-serif;
+}
+
+body {
+  background-color: #FFF9F0;
+  color: #5D4037;
+  font-family: var(--font-sans);
+}
+
+/* Perspective utility for the 3D flipping card */
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "趣味英语单词乐园",
+  "description": "专为儿童设计的可爱卡通风格英文单词记忆与趣味听写拼写测试系统",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
